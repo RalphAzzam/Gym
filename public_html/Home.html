@@ -15,32 +15,56 @@
                     <a href="#" target="_blank">About us</a>
                     <a href="#" target="_blank">contact us</a>
                 </nav>
-                <div id="pi">
-                    <img class="pic1" src="2.jpg" alt="gallery" style="width:900px;height: 300px ">
-                    <img class="pic1" src="1.png" alt="gallery" style="width:900px;height: 300px ">
-                    <img class="pic1" src="12.jpg" alt="gallery" style="width:900px;height: 300px ">
+                <div id="pic">
+                    <img class="pic1" src="h3.jpg" alt="gallery" style="width:1000px;height: 500px ">
+                    <img class="pic1" src="h1.png" alt="gallery" style="width:1000px;height: 500px ">
+                    <img class="pic1" src="h2.jpg" alt="gallery" style="width:1000px;height: 500px ">
+                </div>
+                <div id="pic2">
+                    <img class="pic2" src="q1.jpg" alt="gallery" style="width:1000px;height: 500px ">
+                    <img class="pic2" src="q2.png" alt="gallery" style="width:1000px;height: 500px ">
+                    <img class="pic2" src="1.png" alt="gallery" style="width:1000px;height: 500px ">
                 </div>
             </div>
             <script>
                 var myIndex = 0;
                 carousel();
-                
-                function carousel(){
+
+                function carousel() {
                     var i;
                     var x = document.getElementsByClassName("pic1")
-                    for (i=0;i<x.length; i++) {
-                        x[i].style.display ="none";
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
                     }
                     myIndex++;
                     if (myIndex > x.length) {
                         myIndex = 1;
                     }
-                    x[myIndex-1].style.display = "block";
+                    x[myIndex - 1].style.display = "block";
                     setTimeout(carousel, 2000);
                 }
-                
+
             </script>
 
+            <script>
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("pic2")
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {
+                        myIndex = 1;
+                    }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 2000);
+                }
+
+            </script>
         </div>
     </body>
 </html>

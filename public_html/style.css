@@ -8,13 +8,13 @@ html{
 
 #container{
     position: relative;
-    width: 900px;
-    height:100%;
+    width: 1300px;
+    height:1000px;
     margin: 50px auto 0px;
     background-color: white;
     border-radius: 15px;
     padding: 20px 5px;
-    
+
 }
 
 #selected{
@@ -61,7 +61,13 @@ nav>a:hover{
 
 #pic{
     position: relative;
-  
+    margin: 0px 150px;
+
+}
+
+#pic2{
+    position: relative;
+    margin: 40px 150px;
 }
 
 #wrapper{
@@ -75,22 +81,22 @@ nav>a:hover{
 }
 .radio{
     position: relative;
-    
+
 }
 .divcontent{
-     position: relative;
+    position: relative;
     display: inline-block;
- vertical-align: top;
- margin-left: 30px;
+    vertical-align: top;
+    margin-left: 30px;
 }
 .pheader{
     position: relative;
     margin-top:0px;
-  
+
 }
 .pcontent{
     position: relative;
-    
+
 }
 
 #content_wrapper{
@@ -98,6 +104,6 @@ nav>a:hover{
 }
 
 .planspic{
-    height: 257px;
-    width: 183px;
+    height: 183px;
+    width: 275px;
 }
