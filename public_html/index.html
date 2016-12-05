@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fit In</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="container">
+                <nav>
+                    <a href="#" id="selected">Home</a>
+                    <a href="Plans.html" target="_blank">Plans</a>
+                    <a href="#" target="_blank">About us</a>
+                    <a href="#" target="_blank">contact us</a>
+                </nav>
+                <div id="pi">
+                    <img class="pic1" src="2.jpg" alt="gallery" style="width:900px;height: 300px ">
+                    <img class="pic1" src="1.png" alt="gallery" style="width:900px;height: 300px ">
+                    <img class="pic1" src="12.jpg" alt="gallery" style="width:900px;height: 300px ">
+                </div>
+            </div>
+            <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel(){
+                    var i;
+                    var x = document.getElementsByClassName("pic1")
+                    for (i=0;i<x.length; i++) {
+                        x[i].style.display ="none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {
+                        myIndex = 1;
+                    }
+                    x[myIndex-1].style.display = "block";
+                    setTimeout(carousel, 2000);
+                }
+                
+            </script>
+
+        </div>
+    </body>
+</html>
