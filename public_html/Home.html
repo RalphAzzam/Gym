@@ -10,21 +10,52 @@
         <div id="wrapper">
             <div id="container">
                 <nav>
-                    <a href="#" id="selected">Home</a>
+                    <a href="Home.html" id="selected">Home</a>
                     <a href="Plans.html" target="_blank">Plans</a>
-                    <a href="#" target="_blank">About us</a>
-                    <a href="#" target="_blank">contact us</a>
+                    <a href="About_Us.html" target="_blank">About us</a>
+                    <a href="Contact_Us.html" target="_blank">contact us</a>
                 </nav>
                 <div id="pic">
-                    <img class="pic1" src="h3.jpg" alt="gallery" style="width:1000px;height: 500px ">
-                    <img class="pic1" src="h1.png" alt="gallery" style="width:1000px;height: 500px ">
-                    <img class="pic1" src="h2.jpg" alt="gallery" style="width:1000px;height: 500px ">
+                    <img class="pic1" src="h3.jpg" alt="gallery" style="width:500px;height: 300px ">
+                    <img class="pic1" src="h1.jpg" alt="gallery" style="width:500px;height: 300px ">
+                    <img class="pic1" src="h2.jpg" alt="gallery" style="width:500px;height: 300px ">
                 </div>
                 <div id="pic2">
-                    <img class="pic2" src="q1.jpg" alt="gallery" style="width:1000px;height: 500px ">
-                    <img class="pic2" src="q2.png" alt="gallery" style="width:1000px;height: 500px ">
-                    <img class="pic2" src="1.png" alt="gallery" style="width:1000px;height: 500px ">
+                    <img class="pic" src="q1.jpg" alt="gallery" style="width:500px;height: 300px ">
+                    <img class="pic" src="q2.jpg" alt="gallery" style="width:500px;height: 300px ">
+                    <img class="pic" src="1.png" alt="gallery" style="width:500px;height: 300px ">
                 </div>
+
+                <div class="head">
+                    <p class="phead">
+                        <span>1</span>
+                        Exercises for strength
+                    </p>
+                    <p class="pbody">is the use of resistance to muscular contraction to build the strength, aerobic sustainability, and size of skeletal muscle.</p>
+                </div>
+                
+                <div class="head">
+                    <p class="phead">
+                        <span>2</span>
+                         Cardio exercises
+                    </p>
+                    <p class="pbody">physical exercise intensity is relatively low and refers to the use of oxygen to meet the body's requirements.</p>
+                </div>
+                <div class="head">
+                    <p class="phead">
+                        <span>3</span>
+                        Weight loss
+                    </p>
+                    <p class="pbody">In the context of medicine, and physical form is the reduction of body mass respectively tissue / fatty deposits.</p>
+                </div>
+                <div class="head">
+                    <p class="phead">
+                        <span>4</span>
+                        Mind & Body
+                    </p>
+                    <p class="pbody">Body and mind are really connected and physical exercises also released a large part of the stress.</p>
+                </div>
+
             </div>
             <script>
                 var myIndex = 0;
@@ -52,7 +83,7 @@
 
                 function carousel() {
                     var i;
-                    var x = document.getElementsByClassName("pic2")
+                    var x = document.getElementsByClassName("pic")
                     for (i = 0; i < x.length; i++) {
                         x[i].style.display = "none";
                     }

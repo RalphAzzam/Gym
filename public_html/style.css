@@ -9,7 +9,7 @@ html{
 #container{
     position: relative;
     width: 1300px;
-    height:1000px;
+    height:auto;
     margin: 50px auto 0px;
     background-color: white;
     border-radius: 15px;
@@ -66,8 +66,9 @@ nav>a:hover{
 }
 
 #pic2{
-    position: relative;
-    margin: 40px 150px;
+    margin-right: 10%;
+    margin-top: -23.1%;
+    float: right;
 }
 
 #wrapper{
@@ -106,4 +107,66 @@ nav>a:hover{
 .planspic{
     height: 183px;
     width: 275px;
+}
+
+#disc{
+    width:600px;
+    position: relative;
+    font-size: 19px;
+    color: gray;
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+.head{
+    position: relative;
+    width:250px;
+    height:300px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.phead>span{
+    width:50px;
+    height:50px;
+    font-weight: bold;
+    color:white;
+    background-color: lime;
+    border-radius: 100%;
+    font-size:30px;
+}
+
+.phead{
+    font-weight: bold;
+    font-width:30px;
+}
+
+#find{
+    position: relative;
+    margin-left: 500px;
+    text-align: justify;
+    text-decoration: underline solid black;
+}
+
+#leftbar{
+    float: left;
+    margin-top: -30px;
+}
+
+#leftbar ul{
+    padding-left: 20px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+#leftbar li{
+    color: gold;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+#leftbar li a{
+    color: black;
+    text-transform: uppercasecase;
+    text-decoration: none;
 }
