@@ -8,7 +8,7 @@ html{
 
 #container{
     width: auto;
-    height:auto;
+    height:100%;
     margin: 15px auto 15px;
     background-color: white;
     border-radius: 15px;
@@ -100,7 +100,7 @@ nav>a:hover{
 
 #content_wrapper{
     margin-top: 30px;
-    
+
 }
 
 .planspic{
@@ -193,6 +193,43 @@ nav>a:hover{
 }
 
 #tablehours{
-    margin-right: 250px;
-    text-transform: uppercase;
+    text-transform: capitalize;   
+    position: relative;
+    width:50%;
+    margin: auto;
+    text-align: center;
+    border: solid gray 1px;
+
+}
+
+.tr1{
+    background-color: lightgray;
+}
+
+#contactdiv{
+    position: relative;
+    width:100%;
+
+    display: inline-block;
+
+}
+
+#contactme{
+    position: relative;
+    width:40%;
+    font-size: 20px;
+    top:80px;
+    left:40px;
+    margin: auto;
+}
+
+#contactme tr{
+    height: 80px;
+}
+
+#contacttable{
+    position: relative;
+    width:50%;
+    float: left;
+    top:80px;
 }
