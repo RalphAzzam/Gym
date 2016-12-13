@@ -7,13 +7,13 @@ html{
 }
 
 #container{
-    position: relative;
-    width: 1300px;
+    width: auto;
     height:auto;
-    margin: 50px auto 0px;
+    margin: 15px auto 15px;
     background-color: white;
     border-radius: 15px;
     padding: 20px 5px;
+    padding-bottom: 50px;
 
 }
 
@@ -55,28 +55,26 @@ nav>a{
 
 nav>a:hover{
     color:red;
-    text-decoration: underline solid gold;
+    text-decoration: underline solid black;
 }
 
 #ppic{ 
     position: relative;
     margin: 0px 300px;  
 }
-#pic{
+
+#slideshow1{
     position: relative;
-    margin: 0px 150px;
+    margin: 11px 163.3px;
 
 }
 
-#pic2{
-    margin-right: 10%;
-    margin-top: -23.1%;
+#slideshow2{
+    margin-right: 12%;
+    margin-top: -23.5%;
     float: right;
 }
 
-#wrapper{
-    height: 1500px;
-}
 
 #form1{
     position: relative;
@@ -111,16 +109,14 @@ nav>a:hover{
 }
 
 #disc{
-    width:600px;
-    position: relative;
+    width:auto;
     font-size: 19px;
     color: gray;
-    text-align: justify;
     padding: 0px 10px;
 }
 
 .head{
-    position: relative;
+    margin-left: 15%;
     width:250px;
     height:300px;
     display: inline-block;
@@ -140,6 +136,9 @@ nav>a:hover{
 .phead{
     font-weight: bold;
     font-width:30px;
+}
+#headcontainer{
+    margin-left: 6.5%;
 }
 
 #find{
@@ -183,4 +182,17 @@ nav>a:hover{
 
 .sidebars>li>a:hover{
     color:red;
+}
+
+#Message{
+    padding-top: 5px;
+}
+
+#Message button{
+    margin-left: 188px;
+}
+
+#tablehours{
+    margin-right: 250px;
+    text-transform: uppercase;
 }
